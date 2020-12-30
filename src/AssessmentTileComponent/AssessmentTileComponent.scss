@@ -1,0 +1,26 @@
+@import "../variables.scss";
+
+html {
+  font-size: 14px;
+}
+
+.assessment-tile-component {
+  background-color: $white;
+  border: 1px solid $black;
+  padding: 10px;
+  width: 300px;
+
+  .assessment-name {
+    font-size: 20px;
+    margin-bottom:8px;
+  }
+
+  .failed-recommendations, .passed-recommendations {
+    margin-bottom: 4px;
+  }
+
+  &.assessment-tile-component-secondary {
+    background-color: $black;
+    color: $white;
+  }
+}
