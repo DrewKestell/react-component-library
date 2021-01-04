@@ -1,12 +1,12 @@
 {
-  "name": "react-component-library",
+  "name": "@services-hub/react-component-library",
   "version": "1.0.0",
   "main": "build/index.js",
   "files": [
     "build"
   ],
   "types": "build/index.d.ts",
-  "description": "React Compponent Library",
+  "description": "React Component Library",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
